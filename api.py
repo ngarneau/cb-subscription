@@ -16,7 +16,7 @@ class HelloWorld(Resource):
         matched_paragraphs = []
         for key, value in paragraphs.iteritems():
             if q in value:
-                matched_paragraphs.append(key)
+                matched_paragraphs.append(int(key))
         return self.build_response(matched_paragraphs)
 
     def build_response(self, matched_paragraphs):

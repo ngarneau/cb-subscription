@@ -47,12 +47,12 @@ class HelloWorld(Resource):
 
     def build_jo(self):
         return {
-            'firstName': 'Nicolas',
-            'lastName': 'Garneau',
-            'email': 'nicolas.garneau.1@ulaval.ca',
-            'phoneNumber': '418-569-3097',
+            'firstName': 'Jonathan',
+            'lastName': 'Bergeron',
+            'email': 'jonathan.bergeron.6@ulaval.ca',
+            'phoneNumber': '581-999-9425',
             'educationalEstablishment': 'Universite Laval',
-            'studyProgram': 'Informatique',
+            'studyProgram': 'Mathématiques et Informatique',
             'dateProgramEnd': (datetime.datetime(2016, 5, 1,)-famous_date).total_seconds(),
             'inCharge': False
         }

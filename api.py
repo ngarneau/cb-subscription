@@ -59,13 +59,13 @@ class HelloWorld(Resource):
 
     def build_ul(self):
         return {
-            'firstName': 'Nicolas',
-            'lastName': 'Garneau',
-            'email': 'nicolas.garneau.1@ulaval.ca',
-            'phoneNumber': '418-569-3097',
-            'educationalEstablishment': 'Universite Laval',
-            'studyProgram': 'Informatique',
-            'dateProgramEnd': (datetime.datetime(2016, 5, 1,)-famous_date).total_seconds(),
+            'firstName': 'Ulysse',
+            'lastName': 'Côté-Allard',
+            'email': 'ulysse.cote-allard.1@ulaval.ca',
+            'phoneNumber': '418-805-6528',
+            'educationalEstablishment': 'Université Laval',
+            'studyProgram': 'Génie Électrique',
+            'dateProgramEnd': (datetime.datetime(2016, 4, 1,)-famous_date).total_seconds(),
             'inCharge': False
         }
 
